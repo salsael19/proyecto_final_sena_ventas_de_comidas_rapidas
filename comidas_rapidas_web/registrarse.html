@@ -17,62 +17,27 @@
     <header>
         <nav>
             <div class="logo-navegador">
-                <a href="">
-                    <img class="logo" src="" alt="">
-                </a>
+                <img class="logo" src="" alt="">
             </div>
             <ul>
                 <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./ingresar.html">Ingresar</a></li>
+                <li><a href="./ingresar.php">Ingresar</a></li>
             </ul>
         </nav>
     </header>
     <main class="main">
         <section>
-            <div class="registrase">
-                <form action="" method="POST">
-                    <img src="" alt="">
-                    <h2>Ingresar Datos</h2>
-                    <div class="registarse-form">
-                        <div class="i">
-                            <i class="fas fa-user"></i>
-                        </div>
-                        <div class="ingresar">
-                            <h2>Ingresar Usuario</h2>
-                            <input type="text" name="user" class="input" placeholder="Usuario">
-                        </div>
-                    </div>
-                    <div class="registarse-form">
-                        <div class="i">
-                            <i class="fas fa-lock"></i>
-                        </div>
-                        <div class="ingresar">
-                            <h2>Ingresar Email</h2>
-                            <input type="email" name="email" class="input" placeholder="Email">
-                        </div>
-                    </div>
-                    <div class="registarse-form">
-                        <div class="i">
-                            <i class="fas fa-lock"></i>
-                        </div>
-                        <div class="ingresar">
-                            <h2>Ingresar Contraseña</h2>
-                            <input type="password" name="pass" class="input" placeholder="Contraseña">
-                        </div>
-                    </div>
-                    <a href="./ingresar.html">Ingresar</a>
+                <form class="registrase" action="" method="POST">
+                    <h4>FORMULARIO REGISTRO</h4>
+                    <input class="control" type="text" name="nombre"  placeholder="Ingrese su nombre" required="">
+                    <input class="control" type="text" name="apellido"  placeholder="Ingrese su apellido" required="">
+                    <input class="control" type="text" name="email"  placeholder="Ingresa el correo" required="">
+                    <input class="control" type="text" name="usuario"  placeholder="Ingresa el usuario" required="">
+                    <input class="control" type="password" name="contrasena"  placeholder="Ingrese su contraseña" required="">
+                    <p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
                     <input type="submit" class="btn" value="Registrate">
                 </form>
-            </div>
-            <div class="wave">
-                <div style="height: 150px; overflow: hidden;">
-                    <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
-                        <path d="M0.00,49.98 C130.07,174.17 321.38,2.47 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-                            style="stroke: none; fill: rgb(71, 218, 255);">
-                        </path>
-                    </svg></div>
-            </div>
-        </section>
+         </section>
 
     </main>
     <script src="./assets/js/regisatrarse.js"></script>
